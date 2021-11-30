@@ -17,6 +17,10 @@ los ámbitos que la empresa desarrolla sus servicios)
 - Al menos una página para cada uno de los ámbitos en que la empresa
 ofrece servicios o productos (incluir imágenes de los productos,
 posibilidad de tarifas, posibilidad de descargar catálogos o docs en PDF, etc.
+	- a) Análisis y desarrollo de aplicaciones
+	- b) Actualización y mantenimiento de Bases de datos.
+	- c) Mantenimiento y reparación de Hardware.
+	- d) Desarrollo páginas web.
 - Opción de cambiar el idioma de la web: español e inglés, al menos para
 las páginas de inicio, presentación y contacto. (duplicar las páginas o
 duplicar el árbol).
