@@ -28,10 +28,13 @@ aparezcan, cuando se suba a un sitio web real.
 - Separar contenido / estética con hojas de estilo externas.
 En la primera sesión se organizarán los grupos y en cada uno de ellos se realizará
 un estudio preliminar de las tareas que hay que realizar, cómo se van a afrontar,
-quién las va a llevar a cabo, etc. Este estudio deberá quedar reflejado en un
+quién las va a llevar a cabo, etc.
+
+Este estudio deberá quedar reflejado en un
 documento de Word, que se entregará al final de la sesión, en el que quede
 constancia de cómo se va a llevar a cabo el trabajo, plazos que se van a manejar,
 quién va a realizar qué, cuándo y cómo se va a poner en común, etc.
+
 En el resto de sesiones se trabajará según el plan trazado por el grupo.
 Si durante la realización de la misma se necesita reajustar la planificación, habrá
 que redactar otro documento de reajuste de planificación que se deberá
