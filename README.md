@@ -1,5 +1,8 @@
 # UE WEB FINAL
 
+**IMPORTANTE LEER LA DOCUMENTACIÓN ANTES DE HACER COSAS PARA QUE TODO SE HAGA DE MANERA MODULAR**
+[DOCUMENTACIÓN](./docs/documentacion.md)
+
 La actividad consiste en la elaboración de un sitio web corporativo que deberá
 contar con los siguientes elementos:
 
