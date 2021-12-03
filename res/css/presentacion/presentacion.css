@@ -1,0 +1,25 @@
+#panadera{
+    width: 46vw;
+    height: 50vh;
+
+
+    margin-left: 0%;
+    margin-top: 0%;
+    float: right;
+}
+
+h2{
+    text-shadow: 0 0 0.2em #FFFFFF, 0 0 0.2em #FFFFFF,
+    0 0 0.2em #FFFFFF
+}
+
+
+p{
+    text-indent: 2rem;
+}
+
+h2{
+    border-radius: 3rem;
+    background-color: 3c4357;
+    padding: 1rem;
+}
