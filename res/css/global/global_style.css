@@ -1,0 +1,8 @@
+body {
+    --body-margin: 1rem;
+    background-color: var(--color-primary);
+}
+
+body > * {
+    margin-left: var(--body-margin);
+}
