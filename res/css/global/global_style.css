@@ -2,12 +2,13 @@ body {
     --body-margin: 1rem;
 
     background-color: var(--color-primary);
-    margin-left: 0px;
+    margin: 0px;
 
     font-family: var(--font-family);
     font-size: var(--font-size-text);
+    color: var(--color-quinary);
 }
 
-body > * {
+body * {
     margin-left: var(--body-margin);
 }
