@@ -1,0 +1,102 @@
+:root{
+
+    /* Cambiar despues */
+    --button-color:#4CAF50; 
+    --button-background: green;
+    --font-color: black;
+    --main-background: #00f2ff;
+
+    --color-primary: #FFFFFF;
+    --color-secondary: #FFCA00;
+    --color-tertiary: #FF6732;
+    --color-quaternary: #00F2FF;
+    --color-quinary: #2A2F3D;
+    --color-quinary-light: #3c4357;
+
+    /* Estilo letra */
+    --font-family: 'Roboto', sans-serif;
+    --font-size-title: 1.6rem;
+    --font-size-text: 1.2rem;
+
+}
+
+body{
+    background-color: var(--color-primary);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: var(--font-size-text);
+}
+
+.Main-title{
+
+  font-size: var(--font-size-title));
+
+}
+
+form{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  background-color: var(--color-secondary);
+  text-align: center;
+}
+
+.contact{
+  margin: auto;
+  width: 50%;
+
+  padding: 10px;
+  background-color: var(--color-quaternary);
+
+}
+
+.button {
+    background-color: var(--button-background);
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: var(--color-tertiary);
+    color: var(--font-color)
+  }
+  
+  .button1:hover {
+    background-color: var(--button-background);
+    color: white;
+  }
+
+.name{
+  border: none;
+  border-bottom: 2px solid var(--color-tertiary);
+  background-color: var(--color-secondary)
+
+}
+
+.mail{
+  border: none;
+  border-bottom: 2px solid var(--color-tertiary);
+  background-color: var(--color-secondary)
+  justify-content: flex-end;
+}
+  
+.phone{
+  border: none;
+  border-bottom: 2px solid var(--color-tertiary);
+  background-color: var(--color-secondary)
+}
+
+.text-box {
+  border: none;
+  border-bottom: 2px solid var(--color-tertiary);
+  background-color: var(--color-secondary)
+}
+
