@@ -1,4 +1,11 @@
 :root {
+
+    /* Estilo letra */
+    --font-family: 'Roboto', sans-serif;
+    --font-size-title: 1.6rem;
+    --font-size-text: 1.2rem;
+
+    /* Paleta colores */
     --color-primary: #FFFFFF;
     --color-secondary: #FFCA00;
     --color-tertiary: #FF6732;

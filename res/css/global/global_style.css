@@ -1,6 +1,11 @@
 body {
     --body-margin: 1rem;
+
     background-color: var(--color-primary);
+    margin-left: 0px;
+
+    font-family: var(--font-family);
+    font-size: var(--font-size-text);
 }
 
 body > * {
