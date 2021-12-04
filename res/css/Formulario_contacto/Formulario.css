@@ -18,13 +18,15 @@
     --font-size-title: 1.6rem;
     --font-size-text: 1.2rem;
 
+    --body-margin: 1rem;
 }
 
 body{
-    background-color: var(--color-primary);
+    background-color: var(--primary-background);
     text-align: center;
     font-family: var(--font-family);
     font-size: var(--font-size-text);
+    margin var(--body-margin);
 }
 
 .Main-title{
@@ -36,19 +38,18 @@ body{
 form{
   margin: auto;
   width: 50%;
-  border: 3px solid green;
   padding: 10px;
   background-color: var(--color-secondary);
   text-align: center;
+  box-shadow: 10px 10px 8px #888888;
 }
 
 .contact{
   margin: auto;
   width: 50%;
-
   padding: 10px;
   background-color: var(--color-quaternary);
-
+  box-shadow: 10px 10px 8px #888888;
 }
 
 .button {
@@ -77,8 +78,8 @@ form{
 .name{
   border: none;
   border-bottom: 2px solid var(--color-tertiary);
-  background-color: var(--color-secondary)
-
+  background-color: var(--color-secondary);
+  width: 100%;
 }
 
 .mail{
@@ -86,17 +87,21 @@ form{
   border-bottom: 2px solid var(--color-tertiary);
   background-color: var(--color-secondary)
   justify-content: flex-end;
+  width: 100%;
 }
   
 .phone{
   border: none;
   border-bottom: 2px solid var(--color-tertiary);
-  background-color: var(--color-secondary)
+  background-color: var(--color-secondary);
+  width: 100%;
 }
 
 .text-box {
   border: none;
   border-bottom: 2px solid var(--color-tertiary);
-  background-color: var(--color-secondary)
+  background-color: var(--color-secondary);
+  width: 100%;
+  resize: none;
 }
 
