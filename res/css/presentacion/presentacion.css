@@ -5,13 +5,15 @@
 
     margin-left: 0%;
     margin-top: 0%;
+    margin-bottom: 1rem;
     float: right;
+    
 }
 
 h2{
-    color: #FFFFFF;
+    color: var(--color-primary);
     border-radius: 3rem;
-    background-color: 3c4357;
+    background-color: var(--color-quinary-light);
     padding: 1rem;
     padding-left: 2.5rem;
 }
