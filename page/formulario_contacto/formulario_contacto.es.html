@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="../../res/css/global/global_variables.css">
     <link rel="stylesheet" href="../../res/css/global/global_style.css">
     <link rel="stylesheet" href="../../res/css/global/header/header.css">
-    <link rel="stylesheet" href="../../res/css/Formulario_contacto/Formulario.css">
+    <link rel="stylesheet" href="../../res/css/formulario_contacto/formulario_contacto.css">
+    <link rel="stylesheet" href="../../res/css/global/footer/footer.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="../../res/img/logo.jpg">
 
 </head>
 <body>
@@ -24,7 +28,7 @@
         <a class="link" href="../contacto.en.html" target="_blank">English 🇬🇧</a>
     </div>
     
-    <div class="Main-title">
+    <div class="main-title">
     <h1>CONTACTO</h1>
     </div>
 
@@ -35,14 +39,18 @@
 
         <p><input type="text" nombre="name" id="nombre" placeholder="Nombre" required ="required" class = "name"></p>
         <p><input type="text" nombre="Email" id="Email" placeholder="Email" required ="required" class = "mail"></p>
-        <p><input type="text" nombre="telf" id="telefono" placeholder="Telefono" required ="required" class = "phone"></p>
+        <p><input type="text" nombre="telf" id="telefono" placeholder="Telefono" required ="required" class = "phone" maxlength="9"></p>
         
         <textarea name="texto" rows="10" cols="45" placeholder="Mensaje" class = "text-box" required ="required" maxlength="500"></textarea><br><br>
     </form>
 
+    <div class="checkbox">
 
+    <p><input type="checkbox" required= "required">He leído y acepto la</p> <a href=""></a>
 
-    <div class="Send-button">
+    </div>
+
+    <div class="send-button">
 
         <button type="submit" value="Envianos un mensaje" class=" button button1">Enviar mensaje</button>
 
@@ -54,6 +62,8 @@
 
         <h3>Contactanos</h3>
 
+        <i class="fa fa-location-arrow"></i>
+
         <p>Av. de Fernando Alonso, 8, 28108 Alcobendas, Madrid</p>
 
         <p>Telefono:<a href="tel://+34917407272">+34 917 407 272</a></p>
@@ -63,5 +73,58 @@
         <p>Página Web: <a href="https://uem.works/">uem.works</a></p>
 
     </div>  
+
+    <br><br>
+    <footer class="footer_area">
+        <div class="container">
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <a href="#">
+                                <img src="img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <p class="footer_para column">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam similique aspernatur 
+                            quod voluptatibus! Provident soluta fugiat corporis, inventore voluptas cupiditate eos perspiciatis. 
+                            Perferendis rerum amet, ea accusamus vitae quia labore.
+                            <img class="imginfo" src="https://img.icons8.com/clouds/100/000000/information.png"/>
+                        </p>
+                    </div>  
+                <div>
+                    <div class="column">
+                        <h3>Accesos rapido</h3>
+                        <ul>
+                            <li><a href="#">Sobre nosotros</a></li>
+                            <li><a href="#">Contactanos</a></li>
+                            <li><a href="#">Politica de Privacidad</a></li>
+                            <li><a href="#">Novedades</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="column">
+                        <h3>Recursos</h3>
+                        <ul>
+                            <li><a href="#">Atención al cliente</a></li>
+                            <li><a href="#">Casos de éxito</a></li>
+                            <li><a href="#">Policita de privacidad</a></li>
+                            <li><a href="#">Terminos de uso</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h3>Nuestras Novedades</h3>
+                        <p>Puedes confiar en nosotros. Sólo enviamos ofertas promocionales, ni un solo spam.</p>
+                            <form action="#">
+                                <input type="text" placeholder="soporte@uem.work">
+                                <button class="button" type="submit"><span>Listo 👍🏼</span></button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
 </body>
 </html>

@@ -26,13 +26,11 @@ body{
     text-align: center;
     font-family: var(--font-family);
     font-size: var(--font-size-text);
-    margin var(--body-margin);
+    margin: var(--body-margin);
 }
 
-.Main-title{
-
+.main-title{
   font-size: var(--font-size-title));
-
 }
 
 form{
