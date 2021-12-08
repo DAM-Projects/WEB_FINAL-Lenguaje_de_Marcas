@@ -1,0 +1,33 @@
+h1{
+    color: var(--color-primary);
+    border-radius: 3rem;
+    background-color: var(--color-quinary-light);
+    padding: 1rem;
+    padding-left: 2.5rem;
+    text-align:center;
+    width: 40rem;
+    
+}
+
+span{
+    color: var(--color-secondary);
+}
+
+#inicio{
+    background-image: url(../../img/logo.jpg);
+}
+
+.textos{
+
+    background-color: var(--color-primary);
+
+}
+
+p{
+    text-indent: 2rem;
+}
+body{
+    background-color: transparent;
+    background-image: url(../../img/logo.jpg);
+}
+
