@@ -6,9 +6,9 @@
     box-shadow: 0 8px 48px 8px var(--sombra);
     padding: 30px;
     height: 15rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-family);
     font-weight: 300;
-    color: var(--color);
+    color: var(--color-texto);
     margin-bottom: 1.5rem;
 }
 
