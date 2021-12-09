@@ -10,16 +10,6 @@
     
 }
 
-h2{
-    color: var(--color-primary);
-    border-radius: 3rem;
-    background-color: var(--color-quinary-light);
-    padding: 1rem;
-    padding-left: 2.5rem;
-}
-
-
-
 p{
     text-indent: 2rem;
 }
