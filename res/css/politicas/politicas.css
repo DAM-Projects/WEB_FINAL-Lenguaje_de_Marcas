@@ -1,0 +1,24 @@
+.body {
+    text-align:justify;
+}
+
+.base {
+    width: 70%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(47, 91, 234, 0.175);
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.base label {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #6b6b6b;
+}
+
+.base li {
+    list-style: none;
+    margin-bottom: 10px;
+}
