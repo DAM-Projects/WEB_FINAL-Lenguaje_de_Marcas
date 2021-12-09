@@ -3,12 +3,12 @@
     position: relative;
     z-index: 1;
     overflow: hidden;
-    box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
+    box-shadow: 0 8px 48px 8px var(--sombra);
     padding: 30px;
     height: 15rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: rgb(46, 46, 46);
+    color: var(--color);
     margin-bottom: 1.5rem;
 }
 
