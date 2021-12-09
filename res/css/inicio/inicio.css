@@ -16,3 +16,12 @@ span{
 p {
     text-indent: 2rem;
 }
+
+#informatico{
+    height: 38vh;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+
+   
+    float: right;
+}
