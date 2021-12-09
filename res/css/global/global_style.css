@@ -13,3 +13,11 @@ body * {
     margin-left: var(--body-margin);
     margin-right: var(--body-margin);
 }
+
+h2{
+    color: var(--color-primary);
+    border-radius: 3rem 1rem 3rem 1rem;
+    background-color: var(--color-quinary-light);
+    padding: 1rem;
+    padding-left: 2.5rem;   
+}

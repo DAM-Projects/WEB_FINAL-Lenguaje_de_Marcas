@@ -60,14 +60,6 @@
     text-decoration: none;
 }
 
-h1{
-    color: var(--color-primary);
-    border-radius: 3rem;
-    background-color: var(--color-quinary-light);
-    padding: 1rem;
-    padding-left: 2.5rem;   
-}
-
 .button { 
     background-color: var(--color-tertiary);
     color: white;
