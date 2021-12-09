@@ -9,12 +9,13 @@ body {
     color: var(--color-quinary);
 }
 
-body div {
-    margin-left: var(--body-margin);
+body > * {
+    margin-left: calc(var(--margin-amount, 2) * var(--body-margin));
     margin-right: var(--body-margin);
 }
 
-h2{
+h2 {
+    --margin-amount: 1;
     color: var(--color-primary);
     border-radius: 3rem 1rem 3rem 1rem;
     background-color: var(--color-quinary-light);
