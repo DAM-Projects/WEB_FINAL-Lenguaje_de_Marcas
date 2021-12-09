@@ -3,6 +3,7 @@
     /* Estilo letra */
     --font-family: 'Roboto', sans-serif;
     --font-size-title: 1.6rem;
+    --font-size-sub-title: 1.3rem;
     --font-size-text: 1.2rem;
 
     /* Paleta colores */
@@ -12,4 +13,12 @@
     --color-quaternary: #00F2FF;
     --color-quinary: #2A2F3D;
     --color-quinary-light: #3c4357;
+
+    /* Estilo footer */
+    --sombra: rgba(47, 91, 234, 0.175);
+    --color: rgb(46, 46, 46);
+
+    /* Estilo base textos */
+    --base-sombra: rgba(47, 91, 234, 0.175);
+    
 }
