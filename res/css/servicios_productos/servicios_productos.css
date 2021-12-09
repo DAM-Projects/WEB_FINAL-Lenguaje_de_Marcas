@@ -1,0 +1,25 @@
+#productos {
+    display: flex;
+
+    color: var(--color-primary);
+    background: var(--grey);
+}
+
+.producto {
+    background: var(--color-quinary-light);
+    width: 30rem;
+}
+
+.prod-titulo {
+    margin: 1rem;
+    font-size: var(--font-size-sub-title);
+    text-align: center;
+    width: 100%;
+}
+.producto img {
+    width: calc(100% - 2 * var(--body-margin));
+}
+
+span {
+    text-indent: 0;
+}
