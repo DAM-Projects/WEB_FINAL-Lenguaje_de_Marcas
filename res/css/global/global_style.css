@@ -9,7 +9,7 @@ body {
     color: var(--color-quinary);
 }
 
-body * {
+body div {
     margin-left: var(--body-margin);
     margin-right: var(--body-margin);
 }
