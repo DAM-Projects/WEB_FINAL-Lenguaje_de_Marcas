@@ -47,3 +47,12 @@ p{
     text-indent: 2rem;
 }
 
+hr{
+    height: 10px;
+    background-color: var(--color-tertiary);
+    border-color: var(--color-tertiary);
+    }
+
+#equipo{
+    height: 100%;
+}
