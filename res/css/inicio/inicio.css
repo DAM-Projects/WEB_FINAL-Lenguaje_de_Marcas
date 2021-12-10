@@ -18,7 +18,7 @@ p {
 }
 
 #informatico{
-    height: 38vh;
+    height: 35vh;
     border-radius: 2rem;
     margin-bottom: 2rem;
 
@@ -36,4 +36,24 @@ h5{
     margin: 0%;
     margin-left: 2rem;
     color: var(--color-quinary-light)
+}
+
+hr{
+height: 10px;
+background-color: var(--color-tertiary);
+border-color: var(--color-tertiary);
+}
+
+#sentido{
+    margin-right: 2rem;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+#contemar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 1 * var(--body-margin));
 }
