@@ -1,12 +1,20 @@
+.contenedor-servicios {
+    width: calc(100% - 4 * var(--body-margin));
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 /* servicios, alinear verticalmente cajas con fondo minimalista*/
 .servicios{
     display: inline-block;
     text-align: center;
     vertical-align: top;
-    margin: 0px;
-    padding: 0px;
+    margin: var(--body-margin);
+    padding-bottom: calc(var(--body-margin) * 1.5);
     width: 31%;
-    height: 50%;
     background-color: var(--gris-base);
     border: 1px solid var(--gris-borde);
     border-radius: var(--content-border-radius);
