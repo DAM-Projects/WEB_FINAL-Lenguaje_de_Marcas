@@ -1,18 +1,48 @@
-/* servicios, alinear verticalmente cajas con fondo minimalista*/
+.contenedor-servicios {
+    width: calc(100% - 4 * var(--body-margin));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.servicios con imagen de fondo https://www.vectorlogo.zone/util/preview.html?image=/logos/mysql/mysql-icon.svg*/
+
 .servicios{
+
     display: inline-block;
     text-align: center;
     vertical-align: top;
-    margin: 0px;
-    padding: 0px;
+    margin: var(--body-margin);
+    padding-bottom: calc(var(--body-margin) * 1.5);
     width: 31%;
-    height: 50%;
     background-color: var(--gris-base);
     border: 1px solid var(--gris-borde);
     border-radius: var(--content-border-radius);
     box-shadow: 0px 0px 5px var(--gris-borde);
 }
 
+.srv-mysql{
+    background-image: url(http://assets.stickpng.com/images/5848104fcef1014c0b5e4950.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.srv-mongo{
+    background-image: url(https://img.icons8.com/color/452/mongodb.png);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.srv-redis{
+    background-image: url(http://assets.stickpng.com/images/584830b5cef1014c0b5e4a9c.png);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
 
 /* Productos */
 #productos {
