@@ -26,6 +26,20 @@
   margin-bottom: 10px;
 }
 
+.contenedor-datos-contacto {
+  display: flex;
+  flex-direction: row;
+}
+
+.datos-contacto label {
+  width: 100%;
+}
+
+.rrss-flaticon {
+  width: 2rem;
+  float: right;
+}
+
 .datos-contacto label {
     margin-right: 1rem;
 }
