@@ -5,7 +5,6 @@
     overflow: hidden;
     box-shadow: 0 8px 48px 8px var(--sombra);
     padding: 30px;
-    height: 15rem;
     font-family: var(--font-family);
     font-weight: 300;
     color: var(--color-texto);
@@ -26,4 +25,12 @@
 .footer_area li {
     list-style: none;
     margin-top: 0.6rem;
+}
+
+.footer_area .rrss-flaticon {
+    width: var(--body-margin);
+}
+
+.rrss div {
+    margin-top: 0.7rem;
 }
