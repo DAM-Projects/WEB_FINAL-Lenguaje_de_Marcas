@@ -1,3 +1,4 @@
+
 h1{
     color: var(--color-primary);
     border-radius: 3rem;
@@ -93,12 +94,15 @@ hr{
     height:auto;
     padding: 2rem;
     margin: auto;
-    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px 2em;
     text-align: justify;
-    display: flex;
     font-size: larger;
+    display: flex;
+}
+
+#personal{
+    border-radius: 2rem;
 }
 
 .center-image-container {
@@ -126,8 +130,3 @@ hr{
     border-radius: 2rem;
 }
 
-#personal{
-    max-width: 40rem;
-    max-height: 30rem;
-    border-radius: 2rem;
-}
