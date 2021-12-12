@@ -6,7 +6,6 @@ h1{
     padding-left: 2.5rem;
     text-align:center;
     width: 40rem;
-    
 }
 
 .banner{
@@ -14,14 +13,12 @@ h1{
     height: calc(100vh - var(--header-height));
     background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)),url(../../img/equipo.jpg);
     background-position: center;
-
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     color: #fff;
- 
     margin-left: 0;
     transform: translate(0, -1rem);
 }
@@ -48,14 +45,6 @@ p {
     text-indent: 2rem;
 }
 
-#informatico{
-    height: 35vh;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
-
-    float: right;
-}
-
 span{
     color: var(--color-tertiary);
 }
@@ -71,9 +60,9 @@ h5{
 }
 
 hr{
-height: 10px;
-background-color: var(--color-tertiary);
-border-color: var(--color-tertiary);
+    height: 10px;
+    background-color: var(--color-tertiary);
+    border-color: var(--color-tertiary);
 }
 
 .orange-text{
@@ -83,12 +72,12 @@ border-color: var(--color-tertiary);
     font-size: xx-large;
 }
 .inicio1{
-    width: 80%;
+    max-width: 80%;
+    height: auto;
     font-size: larger;
     text-align: justify;
     padding: 2rem;
     margin: auto;
-    
 }
 
 #contemar{
@@ -100,7 +89,8 @@ border-color: var(--color-tertiary);
 }
 
 .inicio2{
-    width: 80%;
+    max-width: 80%;
+    height:auto;
     padding: 2rem;
     margin: auto;
     display: grid;
@@ -112,7 +102,8 @@ border-color: var(--color-tertiary);
 }
 
 .inicio3{
-    width: 80%;
+    max-width: 80%;
+    height: auto;
     border-top: 5px solid var(--color-tertiary);
     border-bottom: 5px solid var(--color-tertiary);
     padding: 2rem;
@@ -130,7 +121,7 @@ border-color: var(--color-tertiary);
 }
 
 #personal{
-    width: 40rem;
-    height: 3orem;
-
+    max-width: 40rem;
+    max-height: 30rem;
+    border-radius: 2rem;
 }
