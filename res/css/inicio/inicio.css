@@ -74,10 +74,19 @@ background-color: var(--color-tertiary);
 border-color: var(--color-tertiary);
 }
 
-#sentido{
+.orange-text{
     margin-right: 2rem;
     margin-left: 1rem;
     text-align: center;
+    font-size: xx-large;
+}
+.inicio1{
+    width: 80%;
+    font-size: larger;
+    text-align: justify;
+    padding: 2rem;
+    margin: auto;
+    
 }
 
 #contemar{
@@ -86,4 +95,36 @@ border-color: var(--color-tertiary);
     align-items: center;
     justify-content: center;
     width: calc(100% - 1 * var(--body-margin));
+}
+.inicio2{
+    width: 80%;
+    padding: 2rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 2em;
+    text-align: justify;
+    display: flex;
+    font-size: larger;
+    
+}
+
+
+
+.inicio3{
+    width: 80%;
+    border-top: 5px solid var(--color-tertiary);
+    border-bottom: 5px solid var(--color-tertiary);
+    padding: 2rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 2em;
+    text-align: justify;
+    display: flex;
+    font-size: larger;
+}
+
+#oficina{
+    border-radius: 2rem;
 }
