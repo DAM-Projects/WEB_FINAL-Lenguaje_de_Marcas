@@ -101,6 +101,12 @@ hr{
     font-size: larger;
 }
 
+.center-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .inicio3{
     max-width: 80%;
     height: auto;
