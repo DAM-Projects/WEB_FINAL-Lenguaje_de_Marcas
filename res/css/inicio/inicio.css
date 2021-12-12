@@ -31,6 +31,7 @@ h1{
     line-height: 100px;
     font-weight: bold;
 }
+
 .content p{
     margin: 20px auto;
     font-weight: 100;
@@ -62,6 +63,7 @@ span{
 h3{
     margin: 0%;
 }
+
 h5{
     margin: 0%;
     margin-left: 2rem;
@@ -96,6 +98,7 @@ border-color: var(--color-tertiary);
     justify-content: center;
     width: calc(100% - 1 * var(--body-margin));
 }
+
 .inicio2{
     width: 80%;
     padding: 2rem;
@@ -106,10 +109,7 @@ border-color: var(--color-tertiary);
     text-align: justify;
     display: flex;
     font-size: larger;
-    
 }
-
-
 
 .inicio3{
     width: 80%;
@@ -127,4 +127,10 @@ border-color: var(--color-tertiary);
 
 #oficina{
     border-radius: 2rem;
+}
+
+#personal{
+    width: 40rem;
+    height: 3orem;
+
 }
