@@ -84,6 +84,7 @@ form{
 
 .text-box {
   border: none;
+  padding: 1rem;
   border-bottom: 2px solid var(--color-tertiary);
   background-color: #ff67321c;
   border-radius: 10px; 
