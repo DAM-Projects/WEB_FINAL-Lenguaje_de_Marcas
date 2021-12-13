@@ -1,6 +1,6 @@
 # UE WEB FINAL
 
-**IMPORTANTE LEER LA DOCUMENTACIÓN ANTES DE HACER COSAS PARA QUE TODO SE HAGA DE MANERA MODULAR**
+**IMPORTANTE** Leer la documentación antes de empezar para realizar el trabajo de manera modular.
 
 [DOCUMENTACIÓN](./docs/documentacion.md)
 
