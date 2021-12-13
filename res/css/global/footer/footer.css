@@ -29,7 +29,7 @@
 }
 
 .footer_area .rrss-flaticon {
-    width: calc(var(--body-margin) * 1.2);
+    width: var(--body-margin);
 }
 
 .rrss div {
