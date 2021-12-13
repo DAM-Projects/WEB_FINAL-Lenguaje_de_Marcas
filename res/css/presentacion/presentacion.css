@@ -52,7 +52,7 @@ hr {
 }
 
 #equipo {
-  height: 100%;
+  width: 100%;
 }
 
 .imagenes {
@@ -62,4 +62,10 @@ hr {
 
 span {
   color: var(--color-tertiary);
+}
+
+
+.horizontal-centered {
+  display: flex;
+  justify-content: center;
 }
